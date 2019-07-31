@@ -1,0 +1,32 @@
+{
+  "name": "@arrempee/gatsby-theme-mdx-pages",
+  "version": "1.0.1",
+  "description": "A gatsby theme that takes care of basic template-based page creation from MDX files.",
+  "main": "gatsby-config.js",
+  "repository": "github:rogermparent/gatsby-theme-mdx-pages",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-theme",
+    "blog"
+  ],
+  "author": "rmp",
+  "license": "MIT",
+  "dependencies": {
+    "@arrempee/gatsby-helpers": "^1.0.0",
+    "@mdx-js/mdx": "^1.0.21",
+    "@mdx-js/react": "^1.0.21",
+    "gatsby": "^2.10.0",
+    "gatsby-plugin-mdx": "^1.0.14",
+    "install": "^0.12.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "debug": "^4.1.1"
+  }
+}
