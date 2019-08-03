@@ -39,6 +39,7 @@ const getPagePath = ({node, getNode, indexPageName}) => {
     }
 
     return path.join(
+        '/',
         relativeDirectory,
         name
     )
