@@ -1,5 +1,5 @@
-const crypto = require(`crypto`);
-const defaultGetters = require(`./default-getters`);
+const crypto = require('crypto');
+const defaultGetters = require('./default-getters');
 const {resolveFromParent, fetchFromParent} = require('@arrempee/gatsby-helpers/resolver-helpers');
 
 exports.sourceNodes = ({ actions, schema }) => {
