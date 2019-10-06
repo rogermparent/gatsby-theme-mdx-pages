@@ -112,7 +112,7 @@ exports.createPages = async ({
     );
 
     if(result.error) throw result.error;
-    const pageNodes = result.data.allMdxPage;
+    const pageNodes = result.data.allMdxPage.nodes;
 
     for(const mdxPageNode of pageNodes) {
         const component = getTemplateComponent({
